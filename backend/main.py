@@ -21,7 +21,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
+print('It worked')
 @app.get("/")
 def root():
     content = {"Server_Status": "Online"}
