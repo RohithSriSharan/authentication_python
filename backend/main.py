@@ -25,4 +25,5 @@ app.add_middleware(
 @app.get("/")
 def root():
     content = {"Server_Status": "Online"}
+    print('It worked')
     return content
